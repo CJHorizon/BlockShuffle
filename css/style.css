@@ -13,7 +13,6 @@ body {
 header{
     background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(31, 31, 31));
     padding: 40px;
-   
     color: white;
     text-align: center;
     text-shadow: 2px 2px 4px #333;
@@ -31,12 +30,6 @@ header{
     border: 5px solid orange;
   }
 
-  #board img {
-    width:33.4%;
-    height:33.4%;
-    border: 1px solid #0c67ae;
-}
-
 .shuffleBlocks{
     position:absolute;
     left:0;
@@ -46,7 +39,7 @@ header{
     background-color: #47487a;
     color: #f8dd6e;
     border: 2px solid black;
-    font-size:10vh;
+    font-size:70px;
     font-weight:bold;
     text-align:center;
     padding-top:9%;
@@ -62,22 +55,13 @@ header{
     background-color: #47487a;
     color: #f8dd6e;
     border: 2px solid black;
-    font-size:5vh;
+    font-size: 40px;
     font-weight:bold;
     text-align:center;
     padding-top:6%;
     transition:left 0.3s,top 0.3s;
 }
   
-
-  .container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-}
-
-
 #menu_container{
     grid-template-columns: 1fr 1fr;
     display: flex;
@@ -87,12 +71,10 @@ header{
 
 .shuffleButton{
     text-align:center;
-    font-size:3vh;
+    font-size: 20px;
     font-weight:bold;
-    transition:font-size 0.3s;
     background-color: rgb(216, 64, 97);
     
-    overflow: visible;
     width: 240px;
     text-decoration: none;
     text-transform: uppercase;
@@ -111,8 +93,6 @@ header{
     position: relative;
     top: 5px;
     box-shadow: none;
-    
-
 }
 
 
