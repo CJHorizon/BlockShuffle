@@ -86,7 +86,6 @@ function blockSet() {
     $(set2).fadeIn();
     setId = "set" + 1;
  }
-  
 }
 
 function shuffle(){
@@ -153,6 +152,7 @@ function shuffle(){
     console.log(positionElement(blocks[randomNum8], 0 , 240));
     console.log(positionElement(blocks[randomNum9], 240 , 0));
 
+      // Second Set of blocks
     console.log(positionElement(blocks2[randomNum37], 0, 0));
     console.log(positionElement(blocks2[randomNum38], 120 , 0));
     console.log(positionElement(blocks2[randomNum39], 240, 0));
@@ -195,14 +195,13 @@ function shuffle(){
 
     $(".shuffleBlocks").css("background-color", blockColors[randomNum])
     $(".shuffleBlocks2").css("background-color", blockColors[randomNum])
-    
-
   }
  
   posCounter = -1;
 }
 
 function sort(){
+  //First Set of blocks
   console.log(positionElement(blocks[0], 0, 0));
   console.log(positionElement(blocks[1], 240 , 0));
   console.log(positionElement(blocks[2], 480, 0));
@@ -213,44 +212,45 @@ function sort(){
   console.log(positionElement(blocks[7], 240 , 480));
   console.log(positionElement(blocks[8], 480 , 480));
 
+  // Second Set of blocks
   console.log(positionElement(blocks2[0], 0, 0));
-console.log(positionElement(blocks2[1], 120 , 0));
-console.log(positionElement(blocks2[2], 240, 0));
-console.log(positionElement(blocks2[3], 360 , 0));
-console.log(positionElement(blocks2[4], 480, 0));
-console.log(positionElement(blocks2[5], 600 , 0));
-console.log(positionElement(blocks2[6], 0, 120));
-console.log(positionElement(blocks2[7], 120 , 120));
-console.log(positionElement(blocks2[8], 240, 120));
-console.log(positionElement(blocks2[9], 360 , 120));
-console.log(positionElement(blocks2[10], 480, 120));
-console.log(positionElement(blocks2[11], 600 , 120));
+  console.log(positionElement(blocks2[1], 120 , 0));
+  console.log(positionElement(blocks2[2], 240, 0));
+  console.log(positionElement(blocks2[3], 360 , 0));
+  console.log(positionElement(blocks2[4], 480, 0));
+  console.log(positionElement(blocks2[5], 600 , 0));
+  console.log(positionElement(blocks2[6], 0, 120));
+  console.log(positionElement(blocks2[7], 120 , 120));
+  console.log(positionElement(blocks2[8], 240, 120));
+  console.log(positionElement(blocks2[9], 360 , 120));
+  console.log(positionElement(blocks2[10], 480, 120));
+  console.log(positionElement(blocks2[11], 600 , 120));
 
-console.log(positionElement(blocks2[12], 0, 240));
-console.log(positionElement(blocks2[13], 120 , 240));
-console.log(positionElement(blocks2[14], 240, 240));
-console.log(positionElement(blocks2[15], 360 , 240));
-console.log(positionElement(blocks2[16], 480, 240));
-console.log(positionElement(blocks2[17], 600 , 240));
-console.log(positionElement(blocks2[18], 0, 360));
-console.log(positionElement(blocks2[19], 120 , 360));
-console.log(positionElement(blocks2[20], 240, 360));
-console.log(positionElement(blocks2[21], 360 , 360));
-console.log(positionElement(blocks2[22], 480, 360));
-console.log(positionElement(blocks2[23], 600 , 360));
+  console.log(positionElement(blocks2[12], 0, 240));
+  console.log(positionElement(blocks2[13], 120 , 240));
+  console.log(positionElement(blocks2[14], 240, 240));
+  console.log(positionElement(blocks2[15], 360 , 240));
+  console.log(positionElement(blocks2[16], 480, 240));
+  console.log(positionElement(blocks2[17], 600 , 240));
+  console.log(positionElement(blocks2[18], 0, 360));
+  console.log(positionElement(blocks2[19], 120 , 360));
+  console.log(positionElement(blocks2[20], 240, 360));
+  console.log(positionElement(blocks2[21], 360 , 360));
+  console.log(positionElement(blocks2[22], 480, 360));
+  console.log(positionElement(blocks2[23], 600 , 360));
 
-console.log(positionElement(blocks2[24], 0, 480));
-console.log(positionElement(blocks2[25], 120 , 480));
-console.log(positionElement(blocks2[26], 240, 480));
-console.log(positionElement(blocks2[27], 360 , 480));
-console.log(positionElement(blocks2[28], 480, 480));
-console.log(positionElement(blocks2[29], 600 , 480));
-console.log(positionElement(blocks2[30], 0, 600));
-console.log(positionElement(blocks2[31], 120 , 600));
-console.log(positionElement(blocks2[32], 240, 600));
-console.log(positionElement(blocks2[33], 360 , 600));
-console.log(positionElement(blocks2[34], 480, 600));
-console.log(positionElement(blocks2[35], 600 , 600));
+  console.log(positionElement(blocks2[24], 0, 480));
+  console.log(positionElement(blocks2[25], 120 , 480));
+  console.log(positionElement(blocks2[26], 240, 480));
+  console.log(positionElement(blocks2[27], 360 , 480));
+  console.log(positionElement(blocks2[28], 480, 480));
+  console.log(positionElement(blocks2[29], 600 , 480));
+  console.log(positionElement(blocks2[30], 0, 600));
+  console.log(positionElement(blocks2[31], 120 , 600));
+  console.log(positionElement(blocks2[32], 240, 600));
+  console.log(positionElement(blocks2[33], 360 , 600));
+  console.log(positionElement(blocks2[34], 480, 600));
+  console.log(positionElement(blocks2[35], 600 , 600));
   }
 
 
